@@ -1,0 +1,42 @@
+.about{
+    display: flex;
+   
+    background-color: #EAF2FD;
+    width: 1,440px;
+    height: 383px;
+    padding: 64px;
+    gap: 10px;
+    align-items: center;
+}
+
+.about__container{
+    width: 1,136px;
+    height: 255px;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding-left: 5rem;
+    padding-right: 10rem;
+    align-items: center;
+  
+}
+
+.about__title{
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left; 
+
+}
+
+.about__paragraph{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}

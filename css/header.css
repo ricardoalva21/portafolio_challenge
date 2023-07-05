@@ -1,0 +1,38 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 5rem;
+    padding-top: 2.5rem;
+}
+
+.menu__title{
+    font-family: 'Raleway';
+    font-weight: 700;
+    line-height: 18.78px;
+    font-size: 16px;
+    margin-left: 0.5rem;
+    
+}
+.menu__header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+      
+}
+.menu__list{
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    white-space: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.menu__list__item--negrita{
+   color:#464646;
+   font-weight:bold;
+    
+}
