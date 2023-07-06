@@ -2,6 +2,8 @@
     background-color: var(--co-de-fundo);
     padding: 0;
     margin: 0;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
 .hobbies__title{
@@ -9,7 +11,7 @@
     padding: 0;
     margin: 0;
     padding: 2rem;
-    
+    padding-top: 4rem;
     font-family: Raleway;
     font-size: 32px;
     font-weight: 700;
