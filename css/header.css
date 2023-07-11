@@ -32,8 +32,29 @@
     gap: 32px;
 }
 
+.menu__list__item:hover{
+    text-decoration: underline;
+}
+
 .menu__list__item--negrita{
-   color:#464646;
-   font-weight:bold;
+    color:#464646;
+    font-weight:bold;
+    text-decoration: none;  
+ }
+
+.menu__list__item--negrita:hover{
+    text-decoration: none; 
+
     
 }
+
+.menu__list li:last-child a{
+    transition: all 0.4s ease-in-out;
+}
+
+.menu__list li:last-child a:hover {
+    text-shadow: 6px -1.5px 10px black, -1px -1px 2px black; 
+    color: rgb(239, 239, 10);
+}
+
+
